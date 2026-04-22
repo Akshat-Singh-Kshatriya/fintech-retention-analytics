@@ -4,12 +4,11 @@
 This project bridges the gap between predictive machine learning and actionable business strategy. I engineered an end-to-end analytics pipeline using financial services data to predict customer churn. Instead of stopping at model accuracy, this pipeline calculates a proxy for **Customer Lifetime Value (LTV)** to segment at-risk users. The final output is a data-driven **Next-Best-Offer (NBO) strategy** designed to optimize targeted marketing spend by deploying premium retention incentives only to high-value clients.
 
 ## Data Source
-* **Dataset:** [Bank Customer Churn Prediction (Kaggle)]((https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset)).
+* **Dataset:** **[Bank Customer Churn Prediction (Kaggle)]((https://www.kaggle.com/datasets/saurabhbadole/bank-customer-churn-prediction-dataset))**.
 * **Features:** Credit Score, Geography, Age, Tenure, Balance, Number of Products, Estimated Salary, and Exited (Churn indicator).
 
 ## Tech Stack
-* **Language:** Python
-* **Data Hygiene & Manipulation:** Pandas, NumPy
+* **Language:** Python (Pandas, Numpy)
 * **Machine Learning:** scikit-learn, Logistic-Regression, XGBoost-Classifier
 * **Validation:** Stratified 5-Fold Cross-Validation
 
