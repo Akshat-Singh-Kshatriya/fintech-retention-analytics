@@ -43,11 +43,7 @@ The model's probabilities are combined with the calculated LTV to output a targe
 git clone [https://github.com/Akshat-Singh-Kshatriya/fintech-retention-analytics.git](https://github.com/Akshat-Singh-Kshatriya/fintech-retention-analytics.git)
 cd fintech-retention-analytics
 ```
-**2. Install the Dependicies:**
-```bash
-pip install -r requirements.txt
-```
-**3. Run the Model**
+**2. Run the Model**
 ```bash
 python churn_prediction
 ```
