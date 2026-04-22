@@ -7,7 +7,7 @@ from xgboost import XGBClassifier
 from sklearn.metrics import classification_report, roc_auc_score
 
 
-
+# take the csv file from the data folder
 df = pd.read_csv(data)
 
 
